@@ -108,7 +108,7 @@ void setup ()
   sCmd.addCommand("CMD", cmd_action);
   sCmd.setDefaultHandler(unrecognized);
 
-  send_login("Brock");
+  send_login("Marius");
   digitalWrite(LED2_PIN, 1);
 }
 

@@ -113,7 +113,7 @@ connectToArduino(function(err, foundserial) {
 });
 
 console.log("Connecting to server");
-var socketclient = net.connect(7000, "theroom.kintel.net", function() {
+var socketclient = net.connect(7000, "evool.local", function() {
   debug("Connected to server");
 });
 
